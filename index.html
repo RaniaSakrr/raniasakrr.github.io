@@ -231,27 +231,69 @@
         </div>
      </section>
 
-
 <!-- CONTACT -->
-<section class="contact py-5" id="contact">
-    <div class="container text-center">
-        <h2 class="mb-4" style="color: #863d0f;">Contact Me</h2>
-        <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-6 col-12">
-                <div class="contact-info">
-                    <h5>Get in Touch</h5>
-                    <p>If you have any questions or want to get in touch, feel free to reach out!</p>
-                    <ul class="list-unstyled">
-                        <li><i class='uil uil-envelope'></i> <strong>Email:</strong> raniat398@gmail.com</li>
-                        <li><i class='uil uil-phone'></i> <strong>Phone:</strong> +20 1092931204</li>
-                        <li><i class='uil uil-linkedin'></i> <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rania-sakr-b24261276/">linkedin.com/in/rania-sakr-b24261276</a></li>
-                    </ul>
-                </div>
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-lg-5 mr-lg-5 col-12">
+            <div class="google-map w-100">
+<iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57630.88082077182!2d31.23982356824704!3d30.04441918020845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584564e3c1cd1d%3A0xeaa5c57525d8b39d!2sCairo%2C+Egypt!5e0!3m2!1sen!2smm!4v1634760520328" 
+    width="400" 
+    height="300" 
+    frameborder="0" 
+    style="border:0" 
+    allowfullscreen>
+</iframe>
             </div>
-        </div>
-    </div>
-</section>
 
+            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                <div class="contact-info-item">
+                  <p><i class="uil uil-phone"></i> 
+                        <a href="tel:+201092931204">+20 1092931204</a>
+                    </p>
+                    <p><i class="uil uil-envelope"></i> 
+                        <a href="mailto:raniat398@gmail.com">raniat398@gmail.com</a>
+                    </p>
+                    <p><i class="fab fa-linkedin"></i> 
+                        <a href="https://www.linkedin.com/in/rania-sakr-b24261276/">LinkedIn</a>
+                    </p>
+                </div>
+
+               
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-12">
+            <div class="contact-form">
+              <h2 class="mb-4">Interested to work together? Let's talk</h2>
+
+             <form action="send_mail.php" method="post">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <input type="text" class="form-control" name="name" placeholder="Your Name" id="name" required>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <input type="email" class="form-control" name="email" placeholder="Email" id="email" required>
+                    </div>
+                    <div class="col-12">
+                        <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message" required></textarea>
+                    </div>
+                    <div class="ml-lg-auto col-lg-5 col-12">
+                        <input type="submit" class="form-control submit-btn" value="Send">
+                    </div>
+                </div>
+            </form>
+
+
+   
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
     <footer class="text-center py-4">
         <p>&copy; 2023 Rania Sakr. All rights reserved.</p>
     </footer>

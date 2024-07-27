@@ -389,14 +389,16 @@
 
   </section>
 
-  <style>
+ <style>
     .skills-section {
-        max-width: 800px;
+        max-width: 1200px;
         margin: 0 auto;
         padding: 20px;
     }
     .skills-category {
+        width: calc(50% - 10px);
         margin-bottom: 20px;
+        box-sizing: border-box;
     }
     .skills-category h3 {
         background-color: #f8f9fa;
@@ -415,55 +417,67 @@
         border-radius: 4px;
         padding: 10px 15px;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        flex: 1 1 calc(50% - 20px); /* Two items per row */
         text-align: center;
+    }
+    .skills-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
     }
 </style>
 
 <div class="skills-section">
-    <h2 class="text-center mb-4">Skills </h2>
-    <div class="skills-category">
-        <h3>Programming Languages</h3>
-        <div class="skills-list">
-            <div class="skill-item">Python</div>
-            <div class="skill-item">Java</div>
-            <div class="skill-item">C</div>
-            <div class="skill-item">C++</div>
+    <h2 class="text-center mb-4">Skills</h2>
+
+    <div class="skills-row">
+        <div class="skills-category">
+            <h3>Programming Languages</h3>
+            <div class="skills-list">
+                <div class="skill-item">Python</div>
+                <div class="skill-item">Java</div>
+                <div class="skill-item">C</div>
+                <div class="skill-item">C++</div>
+            </div>
+        </div>
+        <div class="skills-category">
+            <h3>Version Control</h3>
+            <div class="skills-list">
+                <div class="skill-item">GitHub</div>
+                <div class="skill-item">GIT</div>
+            </div>
         </div>
     </div>
-    <div class="skills-category">
-        <h3>Version Control</h3>
-        <div class="skills-list">
-            <div class="skill-item">GitHub</div>
-            <div class="skill-item">GIT</div>
+    <div class="skills-row">
+        <div class="skills-category">
+            <h3>Machine Learning</h3>
+            <div class="skills-list">
+                <div class="skill-item">Supervised learning models</div>
+            </div>
+        </div>
+        <div class="skills-category">
+            <h3>Web Development</h3>
+            <div class="skills-list">
+                <div class="skill-item">Flask</div>
+            </div>
         </div>
     </div>
-    <div class="skills-category">
-        <h3>Machine Learning</h3>
-        <div class="skills-list">
-            <div class="skill-item">Supervised learning models</div>
+    <div class="skills-row">
+        <div class="skills-category">
+            <h3>Databases</h3>
+            <div class="skills-list">
+                <div class="skill-item">SQL</div>
+            </div>
         </div>
-    </div>
-    <div class="skills-category">
-        <h3>Web Development</h3>
-        <div class="skills-list">
-            <div class="skill-item">Flask</div>
-        </div>
-    </div>
-    <div class="skills-category">
-        <h3>Databases</h3>
-        <div class="skills-list">
-            <div class="skill-item">SQL</div>
-        </div>
-    </div>
-    <div class="skills-category">
-        <h3>Data Visualization</h3>
-        <div class="skills-list">
-            <div class="skill-item">Power BI</div>
-            <div class="skill-item">familiar with Tableau</div>
+        <div class="skills-category">
+            <h3>Data Visualization</h3>
+            <div class="skills-list">
+                <div class="skill-item">Power BI</div>
+                <div class="skill-item">familiar with Tableau</div>
+            </div>
         </div>
     </div>
 </div>
+
 
 <!-- CONTACT -->
     

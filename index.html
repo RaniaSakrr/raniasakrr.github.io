@@ -389,31 +389,78 @@
 
   </section>
 
-   <style>
+  <style>
     .skills-section {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
+        max-width: 800px;
+        margin: 0 auto;
         padding: 20px;
     }
-    .skill-badge {
-        background-color: #007bff;
-        color: white;
-        padding: 10px 20px;
-        border-radius: 20px;
-        font-weight: bold;
+    .skills-category {
+        margin-bottom: 20px;
+    }
+    .skills-category h3 {
+        background-color: #f8f9fa;
+        padding: 10px;
+        border-left: 5px solid #863d0f;
+        margin-bottom: 10px;
+    }
+    .skills-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .skill-item {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 10px 15px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
 </style>
 
 <div class="skills-section">
-    <div class="skill-badge">Python</div>
-    <div class="skill-badge">SQL</div>
-    <div class="skill-badge">Power BI</div>
-    <div class="skill-badge">Excel</div>
+    <div class="skills-category">
+        <h3>Programming Languages</h3>
+        <div class="skills-list">
+            <div class="skill-item">Python</div>
+            <div class="skill-item">Java</div>
+            <div class="skill-item">C</div>
+            <div class="skill-item">C++</div>
+        </div>
+    </div>
+    <div class="skills-category">
+        <h3>Version Control</h3>
+        <div class="skills-list">
+            <div class="skill-item">GitHub</div>
+            <div class="skill-item">GIT</div>
+        </div>
+    </div>
+    <div class="skills-category">
+        <h3>Machine Learning</h3>
+        <div class="skills-list">
+            <div class="skill-item">Supervised learning models</div>
+        </div>
+    </div>
+    <div class="skills-category">
+        <h3>Web Development</h3>
+        <div class="skills-list">
+            <div class="skill-item">Flask</div>
+        </div>
+    </div>
+    <div class="skills-category">
+        <h3>Databases</h3>
+        <div class="skills-list">
+            <div class="skill-item">SQL</div>
+        </div>
+    </div>
+    <div class="skills-category">
+        <h3>Data Visualization</h3>
+        <div class="skills-list">
+            <div class="skill-item">Power BI</div>
+            <div class="skill-item">familiar with Tableau</div>
+        </div>
+    </div>
 </div>
-
-
 
 
 <!-- CONTACT -->
